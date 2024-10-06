@@ -5,14 +5,16 @@ import { Card, CardContent } from "@/components/ui/card"
 import { BadgeCheck, Calendar, MapPin, Users, Zap } from "lucide-react"
 import Image from 'next/image'
 
+const BASE_URL = 'https://datathon-splash.netlify.app'
+
 export function SplashPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-blue-50">
       <header className="container mx-auto px-4 py-6 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-green-800">AI Sustainability Datathon</h1>
         <div className="flex items-center space-x-8">
-          <Image src="/img/DSClogo.png" alt="DSC Logo" width={96} height={96} className="object-contain" />
-          <Image src="/img/suds_logo_final.svg" alt="SUDS Logo" width={96} height={96} className="object-contain" />
+          <Image src={`${BASE_URL}/img/DSClogo.png`} alt="DSC Logo" width={96} height={96} className="object-contain" unoptimized />
+          <Image src={`${BASE_URL}/img/suds_logo_final.svg`} alt="SUDS Logo" width={96} height={96} className="object-contain" unoptimized />
           <svg xmlns="http://www.w3.org/2000/svg" width="112" height="24" viewBox="0 0 112 24" fill="none">
             <g clipPath="url(#clip0_267_14010)">
               <path d="M23.9846 12L10.5723 17.1473L0 21.2064L6.77942 12L0 2.79358L10.5723 6.85274L23.9846 12Z" fill="#2D9BAD"></path>
@@ -33,11 +35,12 @@ export function SplashPage() {
         <section className="text-center mb-16">
           <div className="mb-8 relative">
             <Image
-              src="/img/globe.png"
+              src={`${BASE_URL}/img/globe.png`}
               alt="Cute AI and nature illustration"
               width={256}
               height={256}
               className="mx-auto object-cover rounded-full shadow-lg"
+              unoptimized
             />
             <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-2 shadow-md">
               <Zap className="w-8 h-8 text-yellow-400" />
@@ -117,27 +120,27 @@ export function SplashPage() {
             <Card className="bg-white/50 backdrop-blur-sm border-green-200">
               <CardContent className="p-6">
                 <h4 className="text-xl font-semibold text-green-800 mb-2">Code Submission</h4>
-                <p className="text-gray-600">
-                  Submit your project code as either:
+                <div className="text-gray-600">
+                  <p>Submit your project code as either:</p>
                   <ul className="list-disc list-inside mt-2">
                     <li>Python Jupyter Notebook (.ipynb)</li>
                     <li>R Markdown file (.rmd)</li>
                   </ul>
-                  Ensure your code is well-documented and reproducible.
-                </p>
+                  <p className="mt-2">Ensure your code is well-documented and reproducible.</p>
+                </div>
               </CardContent>
             </Card>
             <Card className="bg-white/50 backdrop-blur-sm border-green-200">
               <CardContent className="p-6">
                 <h4 className="text-xl font-semibold text-green-800 mb-2">Video Presentation</h4>
-                <p className="text-gray-600">
-                  Create a video presentation of your project:
+                <div className="text-gray-600">
+                  <p>Create a video presentation of your project:</p>
                   <ul className="list-disc list-inside mt-2">
                     <li>Duration: 5-10 minutes</li>
                     <li>Explain your approach, findings, and impact</li>
                     <li>Be creative and engaging!</li>
                   </ul>
-                </p>
+                </div>
               </CardContent>
             </Card>
           </div>
