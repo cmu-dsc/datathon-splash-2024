@@ -35,7 +35,7 @@ export function SplashPage () {
         <section className="text-center mb-16">
           <div className="mb-8 relative">
             <Image
-              src={getAssetPath(`${BASE_URL}/img/globe.png`)}
+              src={`${BASE_URL}/img/globe.png`}
               alt="Cute AI and nature illustration"
               width={256}
               height={256}
