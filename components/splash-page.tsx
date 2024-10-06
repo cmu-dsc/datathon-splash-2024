@@ -5,16 +5,14 @@ import { Card, CardContent } from "@/components/ui/card"
 import { BadgeCheck, Calendar, MapPin, Users, Zap } from "lucide-react"
 import Image from 'next/image'
 
-const BASE_URL = 'https://datathon-splash.netlify.app'
-
 export function SplashPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-blue-50">
       <header className="container mx-auto px-4 py-6 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-green-800">AI Sustainability Datathon</h1>
         <div className="flex items-center space-x-8">
-          <Image src={`${BASE_URL}/img/DSClogo.png`} alt="DSC Logo" width={96} height={96} className="object-contain" unoptimized />
-          <Image src={`${BASE_URL}/img/suds_logo_final.svg`} alt="SUDS Logo" width={96} height={96} className="object-contain" unoptimized />
+          <Image src={`/img/DSClogo.png`} alt="DSC Logo" width={96} height={96} className="object-contain" unoptimized />
+          <Image src={`/img/suds_logo_final.svg`} alt="SUDS Logo" width={96} height={96} className="object-contain" unoptimized />
           <svg xmlns="http://www.w3.org/2000/svg" width="112" height="24" viewBox="0 0 112 24" fill="none">
             <g clipPath="url(#clip0_267_14010)">
               <path d="M23.9846 12L10.5723 17.1473L0 21.2064L6.77942 12L0 2.79358L10.5723 6.85274L23.9846 12Z" fill="#2D9BAD"></path>
@@ -35,7 +33,7 @@ export function SplashPage() {
         <section className="text-center mb-16">
           <div className="mb-8 relative">
             <Image
-              src={`${BASE_URL}/img/globe.png`}
+              src={`/img/globe.png`}
               alt="Cute AI and nature illustration"
               width={256}
               height={256}

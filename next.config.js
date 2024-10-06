@@ -5,8 +5,9 @@ const nextConfig = {
   basePath: '/datathon',
   images: {
     domains: ['datathon-splash.netlify.app'],
-    unoptimized: true,
+    unoptimized: true
   },
+  swcMinify: true
 }
 
 module.exports = nextConfig
