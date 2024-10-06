@@ -7,10 +7,7 @@ const nextConfig = {
     domains: ['datathon-splash.netlify.app'],
     unoptimized: true
   },
-  swcMinify: true,
-  publicRuntimeConfig: {
-    assetPrefix: 'https://datathon-splash.netlify.app',
-  }
+  swcMinify: true
 }
 
 module.exports = nextConfig
