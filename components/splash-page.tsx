@@ -50,7 +50,7 @@ export function SplashPage() {
           </div>
           <h2 className="text-4xl font-bold text-green-800 mb-4">Powering a Sustainable AI Future</h2>
           <p className="text-xl text-gray-600 mb-8">
-            Join us in exploring the environmental impact of AI.<br></br>
+            Join us in exploring the environmental impact of AI in finance.<br></br>
             Organized by CMU Data Science Club + Students Using Data for Social Good. <br></br> Sponsored by BNY Mellon.
           </p>
           <div className="flex justify-center space-x-4 mb-8">
@@ -78,8 +78,8 @@ export function SplashPage() {
           <div>
             <h3 className="text-2xl font-semibold text-green-800 mb-4">Challenge Topic</h3>
             <p className="text-gray-600">
-              Model the impact of AI on resource usage and explore the environmental footprint of data centers. Develop
-              innovative solutions to make AI more sustainable and eco-friendly.
+              Analyze the environmental footprint and resource consumption of AI technologies in the financial industry. 
+              Create innovative strategies to enhance the sustainability and eco-friendliness of AI applications.
             </p>
           </div>
           <div>
