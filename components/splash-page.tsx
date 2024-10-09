@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const BASE_URL = "https://datathon-splash.netlify.app/"
 
-export function SplashPage() {
+export function SplashPage () {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-blue-50">
       <header className="container mx-auto px-4 pt-2 pb-4 -mt-4">
@@ -78,7 +78,7 @@ export function SplashPage() {
           <div>
             <h3 className="text-2xl font-semibold text-green-800 mb-4">Challenge Topic</h3>
             <p className="text-gray-600">
-              Analyze the environmental footprint and resource consumption of AI technologies in the financial industry. 
+              Analyze the environmental footprint and resource consumption of AI technologies in the financial industry.
               Create innovative strategies to enhance the sustainability and eco-friendliness of AI applications.
             </p>
           </div>
