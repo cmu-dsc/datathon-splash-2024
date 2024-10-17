@@ -51,7 +51,7 @@ export function SplashPage () {
           <h2 className="text-4xl font-bold text-green-800 mb-4">Powering a Sustainable AI Future</h2>
           <p className="text-xl text-gray-600 mb-8">
             Join us in exploring the environmental impact of AI in finance.<br></br>
-            Organized by CMU Data Science Club + Students Using Data for Social Good. <br></br> Sponsored by BNY Mellon.
+            Organized by CMU Data Science Club + Students Using Data for Social Good. <br></br> Sponsored by BNY.
           </p>
           <div className="flex justify-center space-x-4 mb-8">
             <div className="flex items-center">
