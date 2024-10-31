@@ -14,21 +14,27 @@ export function SplashPage () {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
           <h1 className="text-2xl font-bold text-green-800 order-2 md:order-1">AI Sustainability Datathon</h1>
           <div className="flex items-center space-x-8 order-1 md:order-2">
-            <Image src={`${BASE_URL}/img/DSClogo.png`} alt="DSC Logo" width={96} height={96} className="object-contain" unoptimized />
-            <Image src={`${BASE_URL}/img/suds_logo_final.svg`} alt="SUDS Logo" width={96} height={96} className="object-contain" unoptimized />
-            <svg xmlns="http://www.w3.org/2000/svg" width="112" height="24" viewBox="0 0 112 24" fill="none" className="w-28 h-6 min-w-[112px]">
-              <g clipPath="url(#clip0_267_14010)">
-                <path d="M23.9846 12L10.5723 17.1473L0 21.2064L6.77942 12L0 2.79358L10.5723 6.85274L23.9846 12Z" fill="#2D9BAD"></path>
-                <path d="M27.6656 0H45.0444C51.7466 0 53.4135 2.92476 53.4135 5.53698V5.88424C53.4135 8.81286 50.863 10.5839 49.1035 10.8077C51.7466 11.1859 54.5788 13.146 54.5788 16.8887V17.236C54.5788 20.4116 52.6572 24 45.137 24H27.6617V0H27.6656ZM35.0315 4.93891V9.06367H43.2193C45.1717 9.06367 45.7698 8.11833 45.7698 7.01479C45.7698 5.88424 45.1408 4.93505 43.2193 4.93505H35.0315V4.93891ZM35.0315 13.9486V18.4669H43.7209C46.0167 18.4669 46.6495 17.3055 46.6495 16.1055V16.0862C46.6495 14.9248 46.0206 13.9486 43.7209 13.9486H35.0315Z" fill="#00243D"></path>
-                <path d="M65.6566 0L75.5306 13.4045V0H82.8965V24H74.2225L64.4798 10.773V24H57.1216V0H65.6605H65.6566Z" fill="#00243D"></path>
-                <path d="M93.1485 14.0103L82.8308 0H91.9408L97.1151 7.02637L102.289 0H111.399L101.082 14.0103V24H93.1485V14.0103Z" fill="#00243D"></path>
-              </g>
-              <defs>
-                <clipPath id="clip0_267_14010">
-                  <rect width="112" height="24" fill="white"></rect>
-                </clipPath>
-              </defs>
-            </svg>
+            <a href="https://www.cmudsc.com" target="_blank" rel="noopener">
+              <Image src={`${BASE_URL}/img/DSClogo.png`} alt="DSC Logo" width={96} height={96} className="object-contain" unoptimized />
+            </a>
+            <a href="https://suds-cmu.org" target="_blank" rel="noopener noreferrer">
+              <Image src={`${BASE_URL}/img/suds_logo_final.svg`} alt="SUDS Logo" width={96} height={96} className="object-contain" unoptimized />
+            </a>
+            <a href="https://www.bny.com/corporate/global/en.html" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="112" height="24" viewBox="0 0 112 24" fill="none" className="w-28 h-6 min-w-[112px]">
+                <g clipPath="url(#clip0_267_14010)">
+                  <path d="M23.9846 12L10.5723 17.1473L0 21.2064L6.77942 12L0 2.79358L10.5723 6.85274L23.9846 12Z" fill="#2D9BAD"></path>
+                  <path d="M27.6656 0H45.0444C51.7466 0 53.4135 2.92476 53.4135 5.53698V5.88424C53.4135 8.81286 50.863 10.5839 49.1035 10.8077C51.7466 11.1859 54.5788 13.146 54.5788 16.8887V17.236C54.5788 20.4116 52.6572 24 45.137 24H27.6617V0H27.6656ZM35.0315 4.93891V9.06367H43.2193C45.1717 9.06367 45.7698 8.11833 45.7698 7.01479C45.7698 5.88424 45.1408 4.93505 43.2193 4.93505H35.0315V4.93891ZM35.0315 13.9486V18.4669H43.7209C46.0167 18.4669 46.6495 17.3055 46.6495 16.1055V16.0862C46.6495 14.9248 46.0206 13.9486 43.7209 13.9486H35.0315Z" fill="#00243D"></path>
+                  <path d="M65.6566 0L75.5306 13.4045V0H82.8965V24H74.2225L64.4798 10.773V24H57.1216V0H65.6605H65.6566Z" fill="#00243D"></path>
+                  <path d="M93.1485 14.0103L82.8308 0H91.9408L97.1151 7.02637L102.289 0H111.399L101.082 14.0103V24H93.1485V14.0103Z" fill="#00243D"></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_267_14010">
+                    <rect width="112" height="24" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
           </div>
         </div>
       </header>
