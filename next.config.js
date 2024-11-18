@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   assetPrefix: 'https://datathon-splash.netlify.app',
-  basePath: '/datathon',
+  basePath: '/archive/datathon-2024',
   images: {
     domains: ['datathon-splash.netlify.app'],
     unoptimized: true
