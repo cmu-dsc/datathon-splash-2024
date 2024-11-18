@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { BadgeCheck, Calendar, MapPin, Users, Zap } from "lucide-react"
 import Image from 'next/image'
 
-const BASE_URL = "https://datathon-splash.netlify.app/"
+const BASE_URL = "https://datathon-splash-2024.netlify.app/"
 
 export function SplashPage () {
   return (
