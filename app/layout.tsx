@@ -20,8 +20,8 @@ export default function RootLayout ({
       <head>
         <Script
           async
-          src="https://analytics.umami.is/script.js"
-          data-website-id="7899076f-1eca-4c1e-bb90-db959ce41077"
+          src="https://umami.cmudsc.com/script.js"
+          data-website-id="4c1a9665-a7ca-4e44-8fd9-e7eee962ad28"
         />
       </head>
       <body className={inter.className}>{children}</body>
